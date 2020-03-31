@@ -7,3 +7,4 @@ https://www.edaplayground.com/x/39qM
 here is the screenshot of the simulation
 https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/08-traffic_lights/simulation.png
 
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/08-traffic_lights/schematic.jpeg
