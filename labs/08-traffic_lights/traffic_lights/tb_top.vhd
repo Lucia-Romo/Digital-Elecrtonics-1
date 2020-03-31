@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   18:07:34 03/26/2020
+-- Create Date:   
 -- Design Name:   
--- Module Name:   /home/nico/Documents/VUT/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/tb_top.vhd
+-- Module Name:   
 -- Project Name:  traffic_lights
 -- Target Device:  
 -- Tool versions:  

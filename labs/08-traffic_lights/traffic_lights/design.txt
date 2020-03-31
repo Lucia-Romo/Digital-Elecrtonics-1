@@ -1,0 +1,110 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity traffic is
+port (i_clk: in STD_LOGIC;
+      i_clr: in STD_LOGIC;
+      semaphore: out std_logic_vector(5 downto 0));
+end traffic;
+
+
+architecture traffic of traffic is
+	type state_number is (first, second, third, fourth, fifth, sixth);
+ 	signal state: state_number;
+    signal counter : unsigned(3 downto 0);
+    constant TIME5: unsigned(3 downto 0) :="1111";
+    constant TIME1: unsigned(3 downto 0) :="0011";
+
+    begin
+      process(i_clk, i_clr)
+      begin
+        if i_clr='0' then 
+          state <= first;
+          counter <= X"0";
+
+        elsif rising_edge(i_clk) then
+        
+        case state is
+        
+        	when first =>
+            if counter < TIME5 then
+            	state <= first;
+                counter <= counter +1;
+            else
+            	state <= second;
+                counter <= X"1";
+            end if;
+
+
+            when second =>
+            if counter < TIME1 then
+            	state <= second;
+                counter <= counter +1;
+            else
+            	state <= third;
+                counter <= X"1";
+            end if;
+            
+            
+            when third =>
+            if counter < TIME1 then
+            	state <= third;
+                counter <= counter +1;
+            else
+            	state <= fourth;
+                counter <= X"1";
+            end if;
+            
+            
+            when fourth =>
+            if counter < TIME5 then
+            	state <= fourth;
+                counter <= counter +1;
+            else
+            	state <= fifth;
+                counter <= X"1";
+            end if;
+            
+            
+            when fifth =>
+            if counter < TIME5 then
+            	state <= fifth;
+                counter <= counter +1;
+            else
+            	state <= sixth;
+                counter <= X"1";
+            end if;
+            
+            
+            when sixth =>
+            if counter < TIME5 then
+            	state <= sixth;
+                counter <= counter +1;
+            else
+            	state <= first;
+                counter <= X"1";
+            end if;
+            
+            when others =>
+            	state <= first;
+        end case;
+      end if;
+    end process;
+    
+    C2: process (state)
+    begin 
+    
+    case state is
+    	
+        when first => semaphore <= "100001";
+        when second => semaphore <= "100010";
+        when third => semaphore <= "100100";
+        when fourth => semaphore <= "001100";
+        when fifth => semaphore <= "010100";
+        when sixth => semaphore <= "100100";
+        when others => semaphore <= "100001";
+       end case;
+     end process;
+     
+end traffic;
