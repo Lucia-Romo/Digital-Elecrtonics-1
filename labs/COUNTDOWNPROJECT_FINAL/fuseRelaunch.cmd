@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/tb_countdown_isim_beh.exe" -prj "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/tb_countdown_beh.prj" "work.tb_countdown" 

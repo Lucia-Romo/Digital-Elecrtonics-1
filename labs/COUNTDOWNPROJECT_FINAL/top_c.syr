@@ -1,0 +1,257 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: top_c.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_c.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_c"
+Output Format                      : NGC
+Target Device                      : CoolRunner2 CPLDs
+
+---- Source Options
+Top Module Name                    : top_c
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/countdown.vhd" in Library work.
+Architecture behavioral of Entity countdown is up to date.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/clock_enable.vhd" in Library work.
+Architecture behavioral of Entity clock_enable is up to date.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/diplay_tm1637.vhd" in Library work.
+Architecture behavioral of Entity display_tm1637 is up to date.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/encoder_kyencoder.vhd" in Library work.
+Entity <encoder_ky040> compiled.
+Entity <encoder_ky040> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/top_c.vhd" in Library work.
+Entity <top_c> compiled.
+Entity <top_c> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top_c> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <countdown> in library <work> (architecture <Behavioral>) with generics.
+	g_NBIT = 4
+
+Analyzing hierarchy for entity <clock_enable> in library <work> (architecture <Behavioral>) with generics.
+	g_NPERIOD = "0000100111000100"
+
+Analyzing hierarchy for entity <display_tm1637> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <encoder_ky040> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <countdown> in library <work> (architecture <Behavioral>) with generics.
+	g_NBIT = 5
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top_c> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/top_c.vhd" line 74: Unconnected output port 'cnt_o' of component 'countdown'.
+WARNING:Xst:753 - "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/top_c.vhd" line 109: Unconnected output port 'POS' of component 'encoder_ky040'.
+Entity <top_c> analyzed. Unit <top_c> generated.
+
+Analyzing generic Entity <countdown.1> in library <work> (Architecture <Behavioral>).
+	g_NBIT = 4
+Entity <countdown.1> analyzed. Unit <countdown.1> generated.
+
+Analyzing generic Entity <clock_enable> in library <work> (Architecture <Behavioral>).
+	g_NPERIOD = "0000100111000100"
+Entity <clock_enable> analyzed. Unit <clock_enable> generated.
+
+Analyzing Entity <display_tm1637> in library <work> (Architecture <Behavioral>).
+Entity <display_tm1637> analyzed. Unit <display_tm1637> generated.
+
+Analyzing generic Entity <countdown.2> in library <work> (Architecture <Behavioral>).
+	g_NBIT = 5
+Entity <countdown.2> analyzed. Unit <countdown.2> generated.
+
+Analyzing Entity <encoder_ky040> in library <work> (Architecture <Behavioral>).
+INFO:Xst:2679 - Register <counter_e> in unit <encoder_ky040> has a constant value of 0000 during circuit operation. The register is replaced by logic.
+Entity <encoder_ky040> analyzed. Unit <encoder_ky040> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <countdown_1>.
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/countdown.vhd".
+WARNING:Xst:1780 - Signal <sB> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sA> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit down counter for signal <s_cnt>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <countdown_1> synthesized.
+
+
+Synthesizing Unit <clock_enable>.
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/clock_enable.vhd".
+    Found 1-bit register for signal <clock_enable_o>.
+    Found 16-bit comparator less for signal <clock_enable_o$cmp_lt0000> created at line 50.
+    Found 16-bit up counter for signal <s_cnt>.
+    Found 16-bit comparator greatequal for signal <s_cnt$cmp_ge0000> created at line 50.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 Comparator(s).
+Unit <clock_enable> synthesized.
+
+
+Synthesizing Unit <encoder_ky040>.
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/encoder_kyencoder.vhd".
+WARNING:Xst:646 - Signal <stateB> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <previousstateA>.
+    Found 1-bit xor2 for signal <previousstateA$xor0000> created at line 67.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <encoder_ky040> synthesized.
+
+
+Synthesizing Unit <countdown_2>.
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/countdown.vhd".
+WARNING:Xst:1780 - Signal <sB> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sA> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit down counter for signal <s_cnt>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <countdown_2> synthesized.
+
+
+Synthesizing Unit <display_tm1637>.
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/diplay_tm1637.vhd".
+WARNING:Xst:653 - Signal <en_i> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <display_tm1637> synthesized.
+
+
+Synthesizing Unit <top_c>.
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/top_c.vhd".
+WARNING:Xst:646 - Signal <srst_n_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <top_c> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 4-bit down counter                                    : 2
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Comparators                                          : 2
+ 16-bit comparator greatequal                          : 1
+ 16-bit comparator less                                : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <BIN_CNT_0> is unconnected in block <top_c>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <CLK_EN_0> is unconnected in block <top_c>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ENC_IN> is unconnected in block <top_c>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 4-bit down counter                                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <top_c> on signal <en_i>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <en_i>
+   Output signal of FD instance <CLK_EN_0/clock_enable_o>
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.23 secs
+ 
+--> 
+
+Total memory usage is 4505428 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

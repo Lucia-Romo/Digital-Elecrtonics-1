@@ -20,7 +20,7 @@ port (
     clk_i      : in  std_logic;     -- 10 kHz clock signal
     BTN0       : in  std_logic;     -- Synchronous reset
     disp_seg_o : out std_logic_vector(7-1 downto 0);
-    disp_dig_o : out std_logic_vector(4-1 downto 0)
+    disp_dig_o : out std_logic_vector(4-1 downto 0);
 	 LD3,LD2,LD1,LD0 : out std_logic
 );
 end entity top;

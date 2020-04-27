@@ -1,0 +1,30 @@
+V3 15
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" 2020/04/17.12:17:02 P.20131013
+EN work/binary_cnt 1587724251 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1587724252 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" \
+      EN work/binary_cnt 1587724251
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" 2020/04/17.12:17:02 P.20131013
+EN work/clock_enable 1587724249 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1587724250 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" \
+      EN work/clock_enable 1587724249
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" 2020/04/24.12:30:44 P.20131013
+EN work/hex_to_7seg 1587724253 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1587724254 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" \
+      EN work/hex_to_7seg 1587724253
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" 2020/04/24.12:27:00 P.20131013
+EN work/top 1587724255 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1587724256 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" \
+      EN work/top 1587724255 CP work/clock_enable CP work/binary_cnt \
+      CP work/hex_to_7seg

@@ -1,0 +1,6 @@
+vhdl isim_temp "countdown.vhd"
+vhdl isim_temp "encoder_kyencoder.vhd"
+vhdl isim_temp "diplay_tm1637.vhd"
+vhdl isim_temp "clock_enable.vhd"
+vhdl isim_temp "top_c.vhd"
+vhdl isim_temp "tb_countdown.vhd"
