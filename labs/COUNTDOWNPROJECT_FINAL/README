@@ -1,4 +1,4 @@
--- **Lab 9-13: Project title**
+**Lab 9-13: Project title**
 
 *Objectives:*
 
@@ -6,17 +6,15 @@ El objetivo es realizar un contador inverso a partir de un valor que nos proporc
 
 *Hardware description*
 
-Primero se han conectado los pines de los perifericos a los conectores de expansion de la Coolrunner-II, 
-de manera que tenemos un periférico de entrada (KY-040) y un periferico de salida (Display with tm1637).
+The peripheral pins have first been connected to the expansion connectors of the CPLD Coolrunner-II,
+so we have an input peripheral (KY-040) and an output peripheral (Display with tm1637).
+
 
 
 *Code description*
  
 -fichero clock_enable.vhd: genera una señal de activacion de reloj
--fichero: hex_to_7seg.vhd: encargado de la codificacion de los displays donde se muestra la salida del contador
--encoder.vhd:se encarga de establecer el valor sobre el cual se quiere realizar la cuenta atrás. Sabiendo que el encoder tiene 12 posiciones y la posibilidad
-de girar tantas veces cuanto se pueda se ha establecido un límite de poder girar tan solo 10 veces, contando las posiciones de manera que solo se puede realizar 
-la cuenta atras como máximo desde 120.
+-encoder.vhd:se encarga de establecer el valor sobre el cual se quiere realizar la cuenta atrás.
 
 
 *Video*
