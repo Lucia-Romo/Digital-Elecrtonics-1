@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Reading design: top.prj
 
@@ -80,15 +80,14 @@ Architecture behavioral of Entity clock_enable is up to date.
 Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" in Library work.
 Architecture behavioral of Entity binary_cnt is up to date.
 Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" in Library work.
-Entity <hex_to_7seg> compiled.
-Entity <hex_to_7seg> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity hex_to_7seg is up to date.
 Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" in Library work.
-Entity <top> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity top is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <top> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <top> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <clock_enable> in library <work> (architecture <Behavioral>) with generics.
 	g_NPERIOD = "0000100111000100"
@@ -102,7 +101,7 @@ Analyzing hierarchy for entity <hex_to_7seg> in library <work> (architecture <Be
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <top> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <top> in library <work> (Architecture <behavioral>).
 Entity <top> analyzed. Unit <top> generated.
 
 Analyzing generic Entity <clock_enable> in library <work> (Architecture <Behavioral>).
@@ -245,15 +244,15 @@ Clock Enable                       : YES
 wysiwyg                            : NO
 
 Design Statistics
-# IOs                              : 17
+# IOs                              : 13
 
 Cell Usage :
-# BELS                             : 198
+# BELS                             : 194
 #      AND2                        : 66
 #      AND3                        : 13
 #      AND4                        : 1
 #      GND                         : 2
-#      INV                         : 70
+#      INV                         : 66
 #      OR2                         : 25
 #      OR3                         : 2
 #      VCC                         : 1
@@ -261,18 +260,18 @@ Cell Usage :
 # FlipFlops/Latches                : 21
 #      FD                          : 17
 #      FDCE                        : 4
-# IO Buffers                       : 17
+# IO Buffers                       : 13
 #      IBUF                        : 2
-#      OBUF                        : 15
+#      OBUF                        : 11
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.85 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.21 secs
  
 --> 
 
-Total memory usage is 4505428 kilobytes
+Total memory usage is 4505620 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

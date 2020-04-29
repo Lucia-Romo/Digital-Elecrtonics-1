@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-27T19:59:09</DateModified>
+  <DateModified>2020-04-29T21:59:50</DateModified>
   <ModuleName>top_c</ModuleName>
-  <SummaryTimeStamp>2020-04-27T15:14:30</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/iseconfig/top_c.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2020-04-29T21:34:21</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/iseconfig/top_c.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL\</ImplementationReportsDirectory>
   <DateInitialized>2020-04-27T10:46:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

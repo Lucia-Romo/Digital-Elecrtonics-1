@@ -33,33 +33,43 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity encoder_ky040 is
+generic(
+    g_NBIT : positive := 5      -- Number of bits
+);
     port (	srst_n_i : in STD_LOGIC; -- Synchronous reset
 				clk_i : in STD_LOGIC; --clock
+				en_i : in std_logic; --enable
 				
 				salidaA   : in  STD_LOGIC; --pin A
 				salidaB   : in  STD_LOGIC; --pin B
 				enc_sw : in std_logic; -- Switch of the encoder
 				
-				POS : out  STD_LOGIC_VECTOR (3 downto 0)
+				cnt_o : out  STD_LOGIC_VECTOR (4-1 downto 0)
 				);
 end encoder_ky040;
 
 architecture Behavioral of encoder_ky040 is
 
-	 signal counter_e : std_logic_vector(3 downto 0);
-    signal previousstateA : std_logic;
+	 signal counter_e : std_logic_vector(4-1 downto 0); -- encoder
+    signal previousstateA : std_logic := '0';
     signal stateA: std_logic;
     signal stateB: std_logic;
     	 
-    begin
-	 
+	 signal s_cnt : std_logic_vector(4-1 downto 0); -- countdown
+		  
+    begin 
 	 
     stateA <= salidaA;
     stateB <= salidaB;
     counter_e <= X"0";	 
 	 
-    	process(clk_i)
-        begin
+	 
+	 --------------------------------------------------------------------
+	 -- PROCESS OF CALCULATION OF THE ENCODER POSITION
+	 --
+	 --------------------------------------------------------------------
+    	encoder_process : process(clk_i)
+      begin
        if rising_edge(clk_i) then
 			if srst_n_i='0' then   
 					counter_e <= (others => '0');   -- Clear all bits
@@ -82,9 +92,33 @@ architecture Behavioral of encoder_ky040 is
 					end if;
 				end if;
 		   end if;	 
-end process;
+			s_cnt <= std_logic_vector(counter_e);
+end process encoder_process;
 
-POS <= counter_e;
+
+
+
+    --------------------------------------------------------------------
+    -- bnry_cntdwn:
+    -- Sequential process with synchronous reset and clock enable,
+    -- which implements an one-way binary counter.
+    --------------------------------------------------------------------
+	 bnry_cntdwn: process (clk_i)
+		begin
+	 
+        if rising_edge(clk_i) then  -- Rising clock edge
+            if srst_n_i = '0' then  -- Synchronous reset (active low)
+                 s_cnt <= (others => '0');  -- Clear all bits
+            elsif en_i = '1' then
+						if s_cnt = 0 then 
+							s_cnt <= (others => '0');
+						else 
+							s_cnt <= s_cnt - 1; -- Normal operation
+						end if;
+            end if;
+        end if;
+		  	cnt_o <= std_logic_vector(s_cnt);
+    end process bnry_cntdwn;
 		
 		
 end Behavioral;

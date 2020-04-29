@@ -1,15 +1,15 @@
 Command line:
    binary_cnt_tb00_isim_beh.exe
      -simmode  gui
-     -simrunnum  1
-     -socket  54452
+     -simrunnum  0
+     -socket  63076
 
-Fri Apr 24 12:35:06 2020
+Wed Apr 29 21:41:23 2020
 
 
- Elaboration Time: 0.21875 sec
+ Elaboration Time: 0.234375 sec
 
- Current Memory Usage: 5816.16 Meg
+ Current Memory Usage: 5658.86 Meg
 
  Total Signals          : 9
  Total Nets             : 13
@@ -20,9 +20,9 @@ Fri Apr 24 12:35:06 2020
  Total Traceable Variables  : 12
  Total Scalar Nets and Variables : 393
 
- Total Simulation Time: 0.234375 sec
+ Total Simulation Time: 0.265625 sec
 
- Current Memory Usage: 5344.27 Meg
+ Current Memory Usage: 5029.68 Meg
 
-Fri Apr 24 12:43:12 2020
+Wed Apr 29 21:44:42 2020
 

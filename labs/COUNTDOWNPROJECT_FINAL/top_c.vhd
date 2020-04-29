@@ -43,45 +43,25 @@ PORT(
 	 SWITCH_ENCODER: in std_logic; --Switch
 	 
 	 -- PIN OUTPUTS
-	 outD : inout std_logic_vector(3 downto 0)
+	 outD : inout std_logic_vector(4-1 downto 0)
 	 );
 	 
 end top_c;
 
 architecture Behavioral of top_c is
 
-	signal srst_n_i : std_logic;
+	--signal srst_n_i : std_logic;
 	signal s_en  : std_logic;
-	
-	signal salA : std_logic;
-	signal salB : std_logic;
-	signal enc_sw : std_logic;
-	
-	signal dio : std_logic_vector(3 downto 0);	
+	signal enc_sw : std_logic;	
+	signal dio : std_logic_vector(4-1 downto 0);	
 	
 begin
 
-
-	srst_n_i <= BTN0;
-	salA <= inA;
-	salB <= inB;
+	--srst_n_i <= BTN0;
 	s_en <= en_i;
 	enc_sw <= SWITCH_ENCODER;
-	outD <= dio;
-      --------------------------------------------------------------------
-      -- Sub-block of counter    
-	
-		BIN_CNT_0 : entity work.countdown
-		generic map (
-			g_NBIT => 4
-		)
-		port map (
-			clk_i    => clk_i,  -- 10 kHz
-			srst_n_i => BTN0,   -- Synchronous reset
-			en_i     => s_en   -- Enable
+	--outD <= dio;
 
-		);	
-	
 	
     --------------------------------------------------------------------
     -- Sub-block of clock_enable entity
@@ -101,18 +81,21 @@ begin
 			port map(
 				 clk_i      => clk_i,
 				 srst_n_i   => BTN0,
-				 dio        => dio
+				 dio        => outD
 			);	
 	
-    --------------------------------------------------------------------
+    --------------------------------------------------------------
     -- Sub-block of encoder
 	 ENC_IN: entity work.encoder_ky040
 			port map(
 				 clk_i      => clk_i,
 				 srst_n_i   => BTN0,
-				 salidaA 	=> salA,
-				 salidaB 	=> salB,
-				 enc_sw     => SWITCH_ENCODER
+				 en_i       => en_i,   -- Enable
+				 salidaA 	=> inA,
+				 salidaB 	=> inB,
+				 enc_sw     => SWITCH_ENCODER,
+				 cnt_o		=> dio
+
 			);
 
 end Behavioral;

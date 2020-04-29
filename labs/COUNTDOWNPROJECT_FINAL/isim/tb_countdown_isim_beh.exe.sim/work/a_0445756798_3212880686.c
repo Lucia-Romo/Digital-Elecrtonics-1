@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/COUNTDOWNPROJECT_FINAL/clock_enable.vhd";
+static const char *ng0 = "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/clock_enable.vhd";
 extern char *IEEE_P_2592010699;
 extern char *IEEE_P_3620187407;
 
@@ -77,9 +77,9 @@ LAB2:    xsi_set_current_line(46, ng0);
 LAB7:    xsi_set_current_line(50, ng0);
     t1 = (t0 + 1512U);
     t3 = *((char **)t1);
-    t1 = (t0 + 5600U);
-    t4 = (t0 + 5658);
-    t8 = (t0 + 5584U);
+    t1 = (t0 + 5816U);
+    t4 = (t0 + 5874);
+    t8 = (t0 + 5800U);
     t9 = ieee_p_3620187407_sub_436351764_3965413181(IEEE_P_3620187407, t13, t4, t8, 1);
     t2 = ieee_p_3620187407_sub_4060537613_3965413181(IEEE_P_3620187407, t3, t1, t9, t13);
     if (t2 != 0)
@@ -88,8 +88,8 @@ LAB7:    xsi_set_current_line(50, ng0);
 LAB10:    xsi_set_current_line(54, ng0);
     t1 = (t0 + 1512U);
     t3 = *((char **)t1);
-    t1 = (t0 + 5600U);
-    t4 = (t0 + 5674);
+    t1 = (t0 + 5816U);
+    t4 = (t0 + 5890);
     t8 = (t18 + 0U);
     t9 = (t8 + 0U);
     *((int *)t9) = 0;

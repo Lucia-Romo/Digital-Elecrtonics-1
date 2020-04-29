@@ -97,37 +97,27 @@ BEGIN
       wait for 100 ns;	
 
       wait for clk_i_period*10;
+		    -- Reset activation
+        BTN0 <= '0'; wait for clk_i_period;
+        BTN0 <= '1';
+		
 	 -- hold reset state for 100 ns.
-     LOOP_1: FOR i IN 0 TO 4 LOOP 
+    --FOR i IN 0 TO 5 LOOP 
+			en_i <= '1'; wait for clk_i_period;
 			inA <= '0';
-			wait for 5 ms;
 			inB <= '0';
-			wait for 5 ms;
+			wait for 5 ns;
 			inA <= '1';
-			wait for 5 ms;
+			--outD <= X"1";
+			SWITCH_ENCODER <= '1';
+  			wait for 5 ns;
 			inB <= '1';
-			wait for 5 ms;
-		END LOOP LOOP_1;
-   
-        -- Reset activation
-        BTN0 <= '0'; wait for clk_i_period;
-        BTN0 <= '1';
-
-        -- Clock enable pulses
-        for i in 0 to 10 loop
-            en_i <= '1'; wait for clk_i_period;
-            en_i <= '0'; wait for clk_i_period*3;
-        end loop;
-
-        -- Reset activation
-        BTN0 <= '0'; wait for clk_i_period;
-        BTN0 <= '1';
-
-        -- Clock enable pulses
-        for i in 0 to 100 loop
-            en_i <= '1'; wait for clk_i_period;
-            en_i <= '0'; wait for clk_i_period*3;
-        end loop;
+			wait for 50 ns;
+			inA <= '0';
+			wait for 50 ns;
+--			inB <= '0';
+--			wait for 50 ns;
+		--END LOOP;
 
         wait;
 end process;

@@ -1,8 +1,8 @@
-EN binary_cnt NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" sub00/vhpl02 1587724251
-EN hex_to_7seg NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" sub00/vhpl05 1587724253
-AR binary_cnt behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" sub00/vhpl03 1587724252
-EN top NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" sub00/vhpl04 1587724255
-AR clock_enable behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" sub00/vhpl01 1587724250
-AR hex_to_7seg behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" sub00/vhpl06 1587724254
-EN clock_enable NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" sub00/vhpl00 1587724249
-AR top behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" sub00/vhpl07 1587724256
+EN binary_cnt NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" sub00/vhpl02 1588189098
+EN hex_to_7seg NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" sub00/vhpl05 1588189100
+AR binary_cnt behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/binary_cnt.vhd" sub00/vhpl03 1588189099
+EN top NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" sub00/vhpl04 1588189102
+AR clock_enable behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" sub00/vhpl01 1588189097
+AR hex_to_7seg behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/hex_to_7seg.vhd" sub00/vhpl06 1588189101
+EN clock_enable NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/binary_counter/clock_enable.vhd" sub00/vhpl00 1588189096
+AR top behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/05-counter_binary/top.vhd" sub00/vhpl07 1588189103

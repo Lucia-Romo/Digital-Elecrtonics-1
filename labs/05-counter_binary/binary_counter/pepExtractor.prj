@@ -1,1 +1,4 @@
+work	"../top.vhd"
 work	"binary_cnt.vhd"
+work	"clock_enable.vhd"
+work	"hex_to_7seg.vhd"
