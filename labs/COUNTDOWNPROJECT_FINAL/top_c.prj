@@ -1,4 +1,0 @@
-vhdl work "encoder_kyencoder.vhd"
-vhdl work "diplay_tm1637.vhd"
-vhdl work "clock_enable.vhd"
-vhdl work "top_c.vhd"

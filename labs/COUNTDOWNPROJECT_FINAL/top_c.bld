@@ -1,9 +1,0 @@
-Release 14.7 ngdbuild P.20131013 (nt64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-
-Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -uc coolrunner.ucf -p xc2c256-TQ144-6 top_c.ngc top_c.ngd
-
-Reading NGO file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT -
-Digital Electronics
-1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/top_c.ngc" ...

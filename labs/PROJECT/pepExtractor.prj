@@ -1,0 +1,4 @@
+work	"binary_cnt.vhd"
+work	"clock_enable.vhd"
+work	"encoder_ky040.vhd"
+work	"top.vhd"

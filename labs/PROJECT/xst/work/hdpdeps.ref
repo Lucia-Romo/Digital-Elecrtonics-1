@@ -1,0 +1,30 @@
+V3 12
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/binary_cnt.vhd" 2020/04/30.02:25:07 P.20131013
+EN work/binary_cnt 1588206320 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/binary_cnt.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1588206321 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/binary_cnt.vhd" \
+      EN work/binary_cnt 1588206320 AR work/encoder_ky040/Behavioral 1588206317
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/clock_enable.vhd" 2020/04/30.02:06:06 P.20131013
+EN work/clock_enable 1588206318 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/clock_enable.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1588206319 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/clock_enable.vhd" \
+      EN work/clock_enable 1588206318
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/encoder_ky040.vhd" 2020/04/30.02:10:53 P.20131013
+EN work/encoder_ky040 1588206316 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/encoder_ky040.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/encoder_ky040/Behavioral 1588206317 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/encoder_ky040.vhd" \
+      EN work/encoder_ky040 1588206316
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/top.vhd" 2020/04/30.02:21:51 P.20131013
+EN work/top 1588206322 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1588206323 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/PROJECT/top.vhd" \
+      EN work/top 1588206322 AR work/clock_enable/Behavioral 1588206319 \
+      AR work/encoder_ky040/Behavioral 1588206317 AR work/binary_cnt/Behavioral 1588206321

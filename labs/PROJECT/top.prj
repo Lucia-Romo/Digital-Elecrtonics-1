@@ -1,0 +1,4 @@
+vhdl work "encoder_ky040.vhd"
+vhdl work "clock_enable.vhd"
+vhdl work "binary_cnt.vhd"
+vhdl work "top.vhd"
