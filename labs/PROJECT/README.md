@@ -65,21 +65,26 @@ Meanwhile, the clok_enable.vhd generates the clock signal.
 On top module the different entities have been connected to make this possible
 
 First of all, we can see how the encoder works:
-https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/1st_testbench_encoder.png
-And then the values of inA and inB have been being modified to obtain the best result when using the encoder correctly.
 
-IMAGE
+The testbench was first performed with a count up the encoder, and as we can see, input signal A goes first and then input signal B, out of phase:
+
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/1st_testbench_encoder.png
+
+and now we have done it with a countdown, so that the input signal B is detected first, and then the input signal A
+
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/2nd_testbench_encoder.PNG
+
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/3rd_testbench_encoder.PNG
+
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/4th_testbench_encoder.PNG
+
+And then the values of inA and inB have been being modified to obtain the best result when using the encoder correctly.
 
 After testing the operation of the encoder, it has been connected to the countdown entity, so that we could start the countdown from the output value of ky-040.
 
-Testbench of each module has been made, and so in this way we have verified the correct operation of the parts:
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/testbench_coundown.PNG
 
-First, the encoder
-
-IMAGE
-
-and then the counter
-
+And connected to the encoder goes the controller tm1637. It shows the output directly from the countdown entity.
 
 
 ## *References*
