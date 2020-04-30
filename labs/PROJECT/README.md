@@ -50,7 +50,13 @@ When we introduce our values into the control circuit, it controls that informat
 
 https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/display-tm16237.PNG
 
--	Coolrunner-II CPLD starter board:
+-	Coolrunner-II CPLD starter board
+
+We have connected every device to the coolrunner using Pmod connectors:
+
+https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/pmod%20connectors.PNG
+
+
 
 ## *Code description*
 
@@ -65,6 +71,14 @@ And then the values of inA and inB have been being modified to obtain the best r
 IMAGE
 
 After testing the operation of the encoder, it has been connected to the countdown entity, so that we could start the countdown from the output value of ky-040.
+
+Testbench of each module has been made, and so in this way we have verified the correct operation of the parts:
+
+First, the encoder
+
+IMAGE
+
+and then the counter
 
 
 
