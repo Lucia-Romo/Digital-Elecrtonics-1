@@ -1,0 +1,2 @@
+vhdl work "encoder_ky040.vhd"
+vhdl work "tb_encoder.vhd"

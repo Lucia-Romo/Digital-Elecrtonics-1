@@ -98,8 +98,8 @@ BEGIN
       	    -- Reset activation
         srst_n_i <= '0'; wait for clk_i_period;
         srst_n_i <= '1';
-		 
-    FOR i IN 0 TO 7 LOOP 
+		  
+		  	FOR i IN 0 TO 4 LOOP 
 			
 			inA <= '0';
 			inB <= '0';
@@ -114,9 +114,26 @@ BEGIN
 			inB <= '0';
 			wait for 5 ns;
 			
-		END LOOP;
-			--en_i <= '0';	 -- hold reset state for 100 ns.
+			END LOOP;
+			
 			enc_sw <= '0';
+		 
+			FOR i IN 0 TO 3 LOOP 
+			
+			inA <= '0';
+			inB <= '0';
+			wait for 10 ns;
+			inB <= '1';	
+			enc_sw <= '1';
+  			wait for 10 ns;
+			inA <= '1';
+			wait for 10 ns;
+			inB <= '0';
+			wait for 10 ns;
+			inA <= '0';
+			wait for 5 ns;
+			
+		END LOOP;
 					 
       wait;
    end process;
