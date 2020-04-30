@@ -1,10 +1,10 @@
-**Lab 9-13: Project title**
+#**Lab 9-13: Project title**
 
-*Objectives*
+## *Objectives*
 
 The objective of the project is to créate a countdown from set value to zero. We are going to use a rotary encoder ky-040 to give the position in wich the countdown will start, and the value of the countdown Will be represented on the driver tm1637.
 
-*Hardware description*
+## *Hardware description*
 
 -	Rotary encoder ky-040:
 
@@ -18,6 +18,7 @@ https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/ima
 
 PINS OF THE ENCODER: 
 We can see we have 5 pins, 3 for data inputs and 2 power pins.
+
 clk: clock input
 DT: input
 SW : switch pin
@@ -39,6 +40,7 @@ https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/ima
 
 It is a control circuit that represents on a display the values that are entered by the data entry.
 we can see that it has 4 pins:
+
 clk: clock input
 DIO: data input
 Vcc: power input
@@ -49,7 +51,7 @@ https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/ima
 
 -	Coolrunner-II CPLD starter board:
 
-*Code description*
+## *Code description*
 
 4 entities have been used in the project to manage the operation of the different peripherals and modules. First we have the encoder entity, which provides the position in which the encoder is, and in this way count down in the countdown entity. once this is achieved, the counter output will be sent to the tm1637 controller for its data input, and will represent the countdown that is taking place.
 Meanwhile, the clok_enable.vhd generates the clock signal.
@@ -65,6 +67,6 @@ After testing the operation of the encoder, it has been connected to the countdo
 
 
 
-*References*
+## *References*
 
 https://www.prometec.net/rotary-encoders/
