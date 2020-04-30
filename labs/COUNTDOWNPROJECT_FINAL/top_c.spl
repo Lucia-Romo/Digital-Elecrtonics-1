@@ -1,0 +1,10 @@
+[Inputs]
+clk_i
+BTN0
+en_i
+inA
+inB
+SWITCH_ENCODER
+[Outputs]
+[BiDir]
+=outD[3:0]=

@@ -50,9 +50,9 @@ PORT(
 	 );
 end top;
 
-architecture Behavioral of top is
+architecture Estructural of top is
 
-	signal union : std_logic_vector(g_NBIT-1 downto 0);
+	signal in_encoder : std_logic_vector(g_NBIT-1 downto 0);
 	signal s_en  : std_logic;
 	
 begin
@@ -80,7 +80,7 @@ begin
 				  inA => inA,
 				  inB => inB,
 				  enc_sw => SWITCH_ENCODER,
-				  final_pos => union	  
+				  final_pos => in_encoder	  
 
 			);
 			
@@ -92,10 +92,10 @@ begin
 				  clk_i => clk_i,
 				  srst_n_i => BTN0,
 				  en_i =>  s_en,
-				  in_encoder => union,
+				  in_encoder => in_encoder,
 				  cnt_o  => outD
 			);
 			
 			
-end Behavioral;
+end Estructural;
 

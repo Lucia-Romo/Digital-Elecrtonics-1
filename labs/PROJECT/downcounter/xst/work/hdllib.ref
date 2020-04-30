@@ -1,0 +1,8 @@
+AR top estructural "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd" sub00/vhpl07 1588275592
+EN binary_cnt NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd" sub00/vhpl04 1588275589
+AR binary_cnt behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd" sub00/vhpl05 1588275590
+EN top NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd" sub00/vhpl06 1588275591
+EN encoder_ky040 NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd" sub00/vhpl02 1588275587
+AR clock_enable behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd" sub00/vhpl01 1588275586
+AR encoder_ky040 behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd" sub00/vhpl03 1588275588
+EN clock_enable NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd" sub00/vhpl00 1588275585

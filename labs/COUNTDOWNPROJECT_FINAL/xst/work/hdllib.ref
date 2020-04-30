@@ -1,0 +1,10 @@
+EN top_c NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/top_c.vhd" sub00/vhpl06 1588203237
+EN countdown NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/countdown.vhd" sub00/vhpl00 1588183871
+EN display_tm1637 NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/diplay_tm1637.vhd" sub00/vhpl07 1588199077
+AR display_tm1637 behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/diplay_tm1637.vhd" sub00/vhpl08 1588199078
+AR top_c behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/top_c.vhd" sub00/vhpl09 1588203238
+EN encoder_ky040 NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/encoder_kyencoder.vhd" sub00/vhpl01 1588203235
+AR countdown behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/countdown.vhd" sub00/vhpl03 1588183872
+AR clock_enable behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/clock_enable.vhd" sub00/vhpl05 1588203234
+AR encoder_ky040 behavioral "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/encoder_kyencoder.vhd" sub00/vhpl02 1588203236
+EN clock_enable NULL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/COUNTDOWNPROJECT_FINAL/clock_enable.vhd" sub00/vhpl04 1588203233

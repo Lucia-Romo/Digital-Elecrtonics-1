@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.00 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.00 secs
  
 --> Reading design: top.prj
 
@@ -75,20 +75,20 @@ wysiwyg                            : NO
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/clock_enable.vhd" in Library work.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd" in Library work.
 Architecture behavioral of Entity clock_enable is up to date.
-Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/encoder_ky040.vhd" in Library work.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd" in Library work.
 Architecture behavioral of Entity encoder_ky040 is up to date.
-Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/binary_cnt.vhd" in Library work.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd" in Library work.
 Entity <binary_cnt> compiled.
 Entity <binary_cnt> (Architecture <behavioral>) compiled.
-Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/top.vhd" in Library work.
-Architecture behavioral of Entity top is up to date.
+Compiling vhdl file "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd" in Library work.
+Architecture estructural of Entity top is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <top> in library <work> (architecture <behavioral>) with generics.
+Analyzing hierarchy for entity <top> in library <work> (architecture <estructural>) with generics.
 	g_NBIT = 4
 
 Analyzing hierarchy for entity <clock_enable> in library <work> (architecture <Behavioral>) with generics.
@@ -104,7 +104,7 @@ Analyzing hierarchy for entity <binary_cnt> in library <work> (architecture <Beh
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing generic Entity <top> in library <work> (Architecture <behavioral>).
+Analyzing generic Entity <top> in library <work> (Architecture <estructural>).
 	g_NBIT = 4
 Entity <top> analyzed. Unit <top> generated.
 
@@ -128,7 +128,7 @@ Entity <binary_cnt> analyzed. Unit <binary_cnt> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <clock_enable>.
-    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/clock_enable.vhd".
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd".
     Found 1-bit register for signal <clock_enable_o>.
     Found 16-bit comparator less for signal <clock_enable_o$cmp_lt0000> created at line 62.
     Found 16-bit up counter for signal <s_cnt>.
@@ -140,7 +140,7 @@ Unit <clock_enable> synthesized.
 
 
 Synthesizing Unit <encoder_ky040>.
-    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/encoder_ky040.vhd".
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd".
     Found 4-bit updown counter for signal <counter_e>.
     Found 1-bit xor2 for signal <counter_e$xor0000> created at line 71.
     Found 1-bit register for signal <previousstateA>.
@@ -153,7 +153,7 @@ Unit <encoder_ky040> synthesized.
 
 
 Synthesizing Unit <binary_cnt>.
-    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/binary_cnt.vhd".
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd".
     Found 4-bit down counter for signal <s_cnt>.
     Summary:
 	inferred   1 Counter(s).
@@ -161,7 +161,7 @@ Unit <binary_cnt> synthesized.
 
 
 Synthesizing Unit <top>.
-    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/top.vhd".
+    Related source file is "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd".
 WARNING:Xst:647 - Input <en_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <top> synthesized.
 
@@ -227,12 +227,12 @@ Drivers are:
    Output signal of FDCE instance <CNT_DOWN/s_cnt_0>
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.67 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.41 secs
  
 --> 
 
-Total memory usage is 4506132 kilobytes
+Total memory usage is 4506388 kilobytes
 
 Number of errors   :    4 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

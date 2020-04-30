@@ -56,8 +56,8 @@ architecture Behavioral of binary_cnt is
     begin
         if rising_edge(clk_i) then  -- Rising clock edge
             if srst_n_i = '0' then  -- Synchronous reset (active low)
-                s_cnt <= (others => '0');   -- Clear all bits
-            elsif en_i = '1' then
+                s_cnt <= (others => '1');   --Initialization at "1111"
+					 elsif en_i = '1' then
                 s_cnt <= s_cnt - 1; -- Normal operation
             end if;
         end if;

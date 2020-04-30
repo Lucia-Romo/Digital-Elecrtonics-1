@@ -1,0 +1,30 @@
+V3 12
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd" 2020/04/30.21:39:27 P.20131013
+EN work/binary_cnt 1588275589 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1588275590 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhd" \
+      EN work/binary_cnt 1588275589
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd" 2020/04/30.02:06:06 P.20131013
+EN work/clock_enable 1588275585 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1588275586 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/clock_enable.vhd" \
+      EN work/clock_enable 1588275585
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd" 2020/04/30.18:44:02 P.20131013
+EN work/encoder_ky040 1588275587 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/encoder_ky040/Behavioral 1588275588 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/encoder_ky040.vhd" \
+      EN work/encoder_ky040 1588275587
+FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd" 2020/04/30.20:45:02 P.20131013
+EN work/top 1588275591 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Estructural 1588275592 \
+      FL "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/top.vhd" \
+      EN work/top 1588275591 AR work/clock_enable/Behavioral 1588275586 \
+      AR work/encoder_ky040/Behavioral 1588275588 AR work/binary_cnt/Behavioral 1588275590

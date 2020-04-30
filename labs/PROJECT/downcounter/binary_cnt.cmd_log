@@ -1,0 +1,3 @@
+vhdtdtfi -prj PROJECT -o "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.vhi" -module binary_cnt -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work binary_cnt.vhd 
+vhdtdtfi -lib work binary_cnt.vhd -prj PROJECT -o binary_cnt.spl -module binary_cnt -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr binary_cnt.spl {C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/binary_cnt.sym} 

@@ -1,0 +1,7 @@
+[Inputs]
+clk_i
+srst_n_i
+en_i
+[Outputs]
+=cnt_o[3:0]=
+[BiDir]

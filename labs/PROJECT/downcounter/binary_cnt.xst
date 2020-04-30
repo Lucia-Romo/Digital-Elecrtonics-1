@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/fran/Desktop/UPM/ERASMUS/CUATRIMESTRE 2/CICT - Digital Electronics 1/Digital-Electronics-1/labs/PROJECT/downcounter/xst"
+elaborate
+-ifn binary_cnt.prj
+-ifmt mixed

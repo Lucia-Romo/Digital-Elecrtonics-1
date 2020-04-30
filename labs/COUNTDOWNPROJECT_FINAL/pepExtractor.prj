@@ -1,0 +1,4 @@
+work	"clock_enable.vhd"
+work	"diplay_tm1637.vhd"
+work	"encoder_kyencoder.vhd"
+work	"top_c.vhd"
