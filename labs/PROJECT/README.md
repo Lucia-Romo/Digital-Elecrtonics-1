@@ -18,11 +18,11 @@ https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/ima
 
 PINS OF THE ENCODER: 
 We can see we have 5 pins, 3 for data inputs and 2 power pins.
-• clk: clock input
-• DT: input
-• SW : switch pin
-• Vcc : power input
-• GND : ground
+clk: clock input
+DT: input
+SW : switch pin
+Vcc : power input
+GND : ground
 
 By having two similar mechanical outputs, we obtain two different pulses that duly studied indicate the direction of rotation in addition to the number of pulses that have been rotated, because the signal of one output will necessarily be out of phase with respect to the other since we first pass through one notch and then the other.
 
@@ -39,10 +39,10 @@ https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/ima
 
 It is a control circuit that represents on a display the values that are entered by the data entry.
 we can see that it has 4 pins:
-• clk: clock input
-• DIO: data input
-• Vcc: power input
-• GND: ground
+clk: clock input
+DIO: data input
+Vcc: power input
+GND: ground
 When we introduce our values into the control circuit, it controls that information and represent wanted values on the display.
 
 https://github.com/Lucia-Romo/Digital-Electronics-1/blob/master/labs/PROJECT/images/display-tm16237.PNG
